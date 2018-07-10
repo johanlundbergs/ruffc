@@ -1,0 +1,30 @@
+.searchBar{
+    height: 50px;
+    width: 220px;
+    border: 1px solid #98d700;
+    padding-left:8px;
+}
+
+.searchButton{
+    height: 50px;
+    box-sizing: none;
+    box-shadow: none;
+    color: white;
+    background-color: #98d700;
+    border:none;
+    width:50px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: 'Amatic SC', cursive;
+    font-size: 21px;   
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: 'Amatic SC', cursive;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: 'Amatic SC', cursive;
+}
